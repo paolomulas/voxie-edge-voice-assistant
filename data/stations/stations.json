@@ -1,0 +1,100 @@
+{
+    "--- MIX & MOODS ---": "---",
+    "mix_paradise": {
+        "name": "Radio Paradise (Main Mix)",
+        "url": "http://stream.radioparadise.com/mp3-128",
+        "tags": ["mix", "eclectic", "best", "pop", "rock"],
+        "moods": ["travel", "work", "happy", "background"],
+        "lang": "en"
+    },
+    "mellow_paradise": {
+        "name": "Radio Paradise Mellow",
+        "url": "http://stream.radioparadise.com/mellow-128",
+        "tags": ["acoustic", "folk", "slow", "vocal"],
+        "moods": ["sad", "calm", "relax", "sleep", "study"],
+        "lang": "en"
+    },
+    "lofi_soma": {
+        "name": "SomaFM Groove Salad",
+        "url": "http://ice1.somafm.com/groovesalad-128-mp3",
+        "tags": ["lofi", "downtempo", "chillout", "electronic"],
+        "moods": ["coding", "programming", "focus", "hacker"],
+        "lang": "en"
+    },
+
+    "--- URBAN & BLACK ---": "---",
+    "hiphop_old": {
+        "name": "181.fm Old School HipHop",
+        "url": "http://relay.181.fm:8068",
+        "tags": ["hiphop", "rap", "old school", "90s", "urban"],
+        "moods": ["cool", "street", "party", "nostalgia", "gym"],
+        "lang": "en"
+    },
+    "hiphop_beat": {
+        "name": "181.fm The Beat",
+        "url": "http://relay.181.fm:8006",
+        "tags": ["hiphop", "rnb", "trap", "modern", "hits"],
+        "moods": ["party", "car", "driving", "flex"],
+        "lang": "en"
+    },
+    "blues_bar": {
+        "name": "1.FM Blues Radio",
+        "url": "http://strm112.1.fm/blues_mobile_mp3",
+        "tags": ["blues", "guitar", "delta", "soul", "roots"],
+        "moods": ["whiskey", "night", "bar", "sad", "relax"],
+        "lang": "en"
+    },
+    "funk_soul": {
+        "name": "SomaFM PopTron",
+        "url": "http://ice1.somafm.com/poptron-128-mp3",
+        "tags": ["funk", "indie pop", "electro", "groove"],
+        "moods": ["happy", "dance", "cooking", "upbeat"],
+        "lang": "en"
+    },
+
+    "--- ROCK & METAL ---": "---",
+    "rock_paradise": {
+        "name": "Radio Paradise Rock",
+        "url": "http://stream.radioparadise.com/rock-128",
+        "tags": ["rock", "modern rock", "guitar", "alternative"],
+        "moods": ["energy", "driving", "work", "power"],
+        "lang": "en"
+    },
+    "classic_rock": {
+        "name": "181.fm The Eagle",
+        "url": "http://relay.181.fm:8128",
+        "tags": ["classic rock", "70s", "80s", "led zeppelin"],
+        "moods": ["dad", "beer", "grill", "motorcycle"],
+        "lang": "en"
+    },
+    "metal_soma": {
+        "name": "SomaFM Metal Detector",
+        "url": "http://ice1.somafm.com/metal-128-mp3",
+        "tags": ["metal", "heavy", "black", "death", "doom"],
+        "moods": ["angry", "dark", "gym", "workout", "scream"],
+        "lang": "en"
+    },
+
+    "--- ELEGANT & CLASSIC ---": "---",
+    "jazz_swiss": {
+        "name": "Radio Swiss Jazz",
+        "url": "http://stream.srg-ssr.ch/m/rsj/mp3_128",
+        "tags": ["jazz", "swing", "bebop", "instrumental"],
+        "moods": ["classy", "dinner", "evening", "wine", "luxury"],
+        "lang": "en"
+    },
+    "classic_swiss": {
+        "name": "Radio Swiss Classic",
+        "url": "http://stream.srg-ssr.ch/m/rsc_de/mp3_128",
+        "tags": ["classical", "piano", "opera", "orchestra"],
+        "moods": ["focus", "reading", "sleeping", "calm"],
+        "lang": "de"
+    },
+    "soundtrack": {
+        "name": "Cinemix",
+        "url": "http://kathy.torontocast.com:3060/;",
+        "tags": ["soundtrack", "movie", "epic", "fantasy"],
+        "moods": ["dreaming", "gaming", "epic", "adventure"],
+        "lang": "en"
+    }
+}

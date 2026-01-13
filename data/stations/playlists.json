@@ -1,0 +1,9 @@
+{
+  "study": ["lofi_soma", "mellow_paradise", "mix_paradise"],
+  "focus": ["lofi_soma", "mellow_paradise", "mix_paradise"],
+  "chill": ["mellow_paradise", "mix_paradise", "lofi_soma"],
+  "indie": ["rock_paradise", "mix_paradise", "mellow_paradise"],
+  "rock": ["rock_paradise", "mix_paradise"],
+  "jazz": ["jazz_swiss", "mix_paradise"],
+  "party": ["mix_paradise", "rock_paradise"]
+}

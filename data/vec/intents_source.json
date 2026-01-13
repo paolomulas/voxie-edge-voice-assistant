@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "version": "2.9",
+    "lang": "it"
+  },
+  "intents": [
+    {
+      "intent": "news",
+      "examples": [
+        "che abbiamo di nuovo oggi",
+        "novità del giorno",
+        "aggiornami sulle notizie",
+        "cosa sta succedendo",
+        "dimmi le ultime notizie"
+      ]
+    },
+    {
+      "intent": "weather",
+      "examples": [
+        "che tempo fa",
+        "meteo di oggi",
+        "piove oggi",
+        "che tempo farà domani"
+      ]
+    },
+    {
+      "intent": "radio",
+      "examples": [
+        "metti musica",
+        "accendi la radio",
+        "voglio ascoltare musica",
+        "metti qualcosa da ascoltare"
+      ]
+    },
+    {
+      "intent": "time",
+      "examples": [
+        "che ore sono",
+        "dimmi l'orario",
+        "che ora è adesso"
+      ]
+    },
+	{
+  "intent": "events_timeout",
+  "examples": [
+    "che si fa stasera?",
+    "idee per uscire",
+    "mi va di staccare un po'",
+    "basta schermo per oggi",
+    "facciamo qualcosa di carino?"
+	  ]
+	},
+    {
+      "intent": "vox",
+      "examples": [
+        "vox dimmi qualcosa",
+        "una citazione",
+        "fammi riflettere"
+      ]
+    }
+  ]
+}

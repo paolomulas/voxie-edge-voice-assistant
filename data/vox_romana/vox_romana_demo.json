@@ -1,0 +1,42 @@
+[
+  {
+    "id": "SEN_001",
+    "philosopher": "seneca",
+    "latin": "Ignis aurum probat, miseria fortes viros.",
+    "italian": "Il fuoco mette alla prova l’oro. Le difficoltà mettono alla prova gli uomini forti.",
+    "tags": ["resilienza","forza","difficoltà"],
+    "file": "seneca_001.mp3"
+  },
+  {
+    "id": "AUR_001",
+    "philosopher": "marco aurelio",
+    "latin": "Amor fati.",
+    "italian": "Ama il tuo destino. È la tua stessa vita.",
+    "tags": ["accettazione","destino"],
+    "file": "aurelio_001.mp3"
+  },
+  {
+    "id": "CIC_001",
+    "philosopher": "cicerone",
+    "latin": "Audentes fortuna iuvat.",
+    "italian": "La fortuna aiuta gli audaci.",
+    "tags": ["coraggio","azione"],
+    "file": "cicerone_001.mp3"
+  },
+  {
+    "id": "SEN_002",
+    "philosopher": "seneca",
+    "latin": "Non qui parum habet, sed qui plus cupit, pauper est.",
+    "italian": "Non è povero chi ha poco, ma chi desidera di più.",
+    "tags": ["desiderio","ricchezza"],
+    "file": "seneca_002.mp3"
+  },
+  {
+    "id": "AUR_002",
+    "philosopher": "marco aurelio",
+    "latin": "Hoc quoque transibit.",
+    "italian": "Anche questo passerà.",
+    "tags": ["tempo","impermanenza"],
+    "file": "aurelio_002.mp3"
+  }
+]

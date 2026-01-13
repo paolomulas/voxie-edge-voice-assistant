@@ -1,0 +1,32 @@
+{
+  "schema": "voxie.feed.v1",
+  "skill": "news",
+  "generated_at": "2026-01-13T10:30:00+01:00",
+  "locale": {
+    "country": "IT",
+    "region": "Sardegna",
+    "city": "Cagliari"
+  },
+  "ttl_sec": 1800,
+  "source": {
+    "backend": "sonar",
+    "provider": "perplexity",
+    "query": "notizie di oggi Cagliari"
+  },
+  "items": [
+    {
+      "id": "news-001",
+      "type": "news",
+      "title": "Titolo notizia",
+      "summary": "Breve riassunto della notizia.",
+      "created_at": "2026-01-13T09:00:00+01:00",
+      "url": null,
+      "audio": {
+        "script": "Titolo notizia. Breve riassunto della notizia.",
+        "voice": "default",
+        "model": "elevenlabs",
+        "local_path": "data/cache/feed/news-001.mp3"
+      }
+    }
+  ]
+}

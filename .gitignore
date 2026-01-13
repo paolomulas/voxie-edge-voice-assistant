@@ -1,0 +1,56 @@
+# ================================
+# Environment & secrets
+# ================================
+.env
+.env.local
+.env.*.local
+
+# ================================
+# Python
+# ================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.envvenv/
+
+# ================================
+# Runtime state & IPC
+# ================================
+*.pid
+*.sock
+*.fifo
+/tmp/*
+run/*
+
+# ================================
+# Audio cache & generated assets
+# ================================
+data/cache/**
+!data/cache/**/.gitkeep
+
+data/logs/**
+!data/logs/**/.gitkeep
+
+*.mp3
+*.wav
+*.ogg
+
+# ================================
+# OS / Editor noise
+# ================================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ================================
+# Backup / temp files
+# ================================
+*~
+*.bak
+*.old
