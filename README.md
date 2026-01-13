@@ -14,7 +14,7 @@ This repository is shared to document architectural patterns, design trade-offs,
 ## 🎯 Project goals
 
 - Show that voice assistants **do not require modern hardware**
-- Validate **datapizza-ai-php** in a real, non-trivial use case
+- Validate **datapizza-ai-php** in a real use case
 - Explore **local-first design** with optional cloud enhancement
 - Document real-world edge cases (PTT, ASR, echo, caching, debouncing)
 
