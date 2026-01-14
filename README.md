@@ -13,12 +13,30 @@ This repository is shared to document architectural patterns, design trade-offs,
 
 ## 🎯 Project goals
 
-- Show that voice assistants **do not require modern hardware**
-- Validate **datapizza-ai-php** in a real use case
-- Explore **local-first design** with optional cloud enhancement
-- Document real-world edge cases (PTT, ASR, echo, caching, debouncing)
+- Explore voice assistant architectures under extreme hardware constraints
+- Validate datapizza-ai-php in a real, end-to-end scenario
+- Study local-first design with optional cloud-based services
+- Observe real-world edge cases: PTT reliability, ASR noise, echo loops, caching, debouncing
+
 
 ---
+
+
+## 🧱 Design principles
+
+This project is driven by a set of explicit architectural constraints:
+
+- Hardware limitations are treated as a first-class design input
+- Runtime hardware control and cognitive logic are strictly separated
+- ASR and TTS are consumed as external services, not embedded assumptions
+- Skills are stateless, composable, and executed on demand
+- Observability is preferred over hidden automation
+
+The system is designed to be inspected, modified, and reasoned about,
+rather than optimized for throughput or scale.
+
+---
+
 
 ## 🧠 Architecture (high level)
 
@@ -39,10 +57,12 @@ This repository is shared to document architectural patterns, design trade-offs,
    (TTS / stream)
 ```
 
-- **Python** handles hardware, audio I/O, and PTT
-- **PHP** handles AI logic, intent routing, and skills
-- Processes communicate via FIFO and Unix sockets
-- No heavy frameworks, no resident services
+The Python layer is responsible only for hardware interaction and audio I/O.
+All intent routing, state handling, and skill orchestration live in the PHP layer.
+
+This separation keeps the runtime predictable on constrained devices and avoids
+long-lived in-memory state on the ARMv6 platform.
+
 
 ---
 
@@ -60,9 +80,8 @@ At runtime:
 - the closest intent is selected if above threshold
 - LLM calls are used only as fallback
 
-This approach drastically reduces latency, cost, and dependency on cloud models,
-while preserving agent-like behavior and flexibility.
-
+This mechanism provides a minimal but effective form of agentic behavior,
+without requiring persistent processes or continuous LLM interaction.
 
 
 ### Why the vector store matters (agentic core)
