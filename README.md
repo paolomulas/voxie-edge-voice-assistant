@@ -256,9 +256,12 @@ This design is one of the key reasons the system runs reliably on a single-core 
 
 ## 📜 License
 
-Educational / experimental project.
+MIT License © 2026  
+Built by **Paolo Mulas** (paolomulas)
 
-A final license (MIT or Apache 2.0) will be chosen before the first public release.
+If this project or its architectural ideas are reused,
+a reference to this repository is appreciated.
+
 
 ---
 
