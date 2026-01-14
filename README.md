@@ -235,10 +235,12 @@ bitVox is designed around a simple but deliberate hardware principle:
 
 This setup allows the two available USB ports on the Raspberry Pi Model B to be used as **independent I/O channels**, avoiding contention and reducing CPU load.
 
-By offloading audio capture and playback to dedicated chips, the ARMv6 CPU is left free to handle:
+By offloading audio capture and playback to dedicated chips, CPU load is reduced and made more predictable.
+This allows the ARMv6 processor to reliably handle:
 - ASR requests
 - intent routing
 - skill execution
+
 
 This design is one of the key reasons the system runs reliably on a single-core 700 MHz CPU with 512 MB RAM.
 
@@ -249,7 +251,6 @@ This design is one of the key reasons the system runs reliably on a single-core 
 - This repository **does not include personal demo audio files**
 - Some skills require **cloud APIs** (optional and configurable)
 - Weather via LLM is descriptive, not authoritative data
-- The project prioritizes clarity and robustness over features
 
 ---
 
@@ -263,7 +264,7 @@ A final license (MIT or Apache 2.0) will be chosen before the first public relea
 
 > **bitVox**  
 > Constraint-driven design.  
-> Because old hardware still has something to teach.
+> Because constraints are often the best design teacher.
 
 
 ## Feed-based skills (news, weather, timeout)
