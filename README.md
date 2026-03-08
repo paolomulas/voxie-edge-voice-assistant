@@ -57,19 +57,6 @@ rather than optimized for throughput or scale.
    (TTS / stream)
 ```
 
-```mermaid
-graph TD
-    A[User Voice Input] --> B[Raspberry Pi 2011]
-    B --> C[PHP Orchestrator]
-    C --> D{Google Cloud}
-    D --> E[Gemini 2.0 Flash API]
-    E --> F[Function Calling]
-    F --> G[Google Calendar API]
-    F --> H[Gmail API]
-    F --> I[Google Search Tool]
-    E --> J[Voice Response]
-    J --> B
-
 The Python layer is responsible only for hardware interaction and audio I/O.
 All intent routing, state handling, and skill orchestration live in the PHP layer.
 
