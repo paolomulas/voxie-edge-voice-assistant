@@ -41,18 +41,20 @@ rather than optimized for throughput or scale.
 ## 🧠 Architecture (high level)
 
 ```
-mermaid
-graph TD
-    A[User Voice Input] --> B[Raspberry Pi 2011]
-    B --> C[PHP Orchestrator]
-    C --> D{Google Cloud Platform}
-    D --> E[Gemini 2.0 Flash API]
-    E --> F[Function Calling / Tools]
-    F --> G[Google Calendar API]
-    F --> H[Gmail API]
-    F --> I[Google Search Tool]
-    E --> J[Voice Response]
-    J --> B
+[ Physical Button / PTT ]
+            ↓
+         evdev
+            ↓
+          FIFO
+            ↓
+     Python Listener
+   (record + ASR)
+            ↓
+        PHP Agent
+   (intent + skill)
+            ↓
+      Audio Daemon
+   (TTS / stream)
 ```
 
 The Python layer is responsible only for hardware interaction and audio I/O.
